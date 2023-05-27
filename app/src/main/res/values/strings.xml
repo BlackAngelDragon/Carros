@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">carritosVersionFinal</string>
+
+    <!-- MainActivity -->
+    <string name="buttonDispositivos">Dispositivos</string>
+    <string name="buttonCarrera">Carrera</string>
+    <string name="buttonPilotos">Pilotos</string>
+    <string name="buttonAutos">Autos</string>
+    <string name="buttonPistas">pistas</string>
+    <string name="buttonHistorico">historico</string>
+    <string name="descripcionLogo">el logo de la app</string>
+
+    <!-- DispositivosActivity -->
+    <string name="textViewSelecione">seleccione dispositivo</string>
+
+    <!-- CarreraActivity -->
+    <string name="buttonSelccionarPista">Seleccion pista</string>
+    <string name="textAgregarPioloto">para agregar pilotos, toque aqui o pase un aauto por el lector</string>
+
+    <!-- PilotosActivity -->
+    <string name="textViewPilotos">Pilotos</string>
+    <string name="buttonAgregarPiloto">Agregar nuevo Piloto</string>
+
+    <!-- PistasActivity -->
+    <string name="textViewPistas">Pistas</string>
+    <string name="buttonAgregarPista">Agregar nueva Pista</string>
+
+    <!-- AutosActivity -->
+    <string name="textAutos">Autos</string>
+    <string name="buttonAgregarAuto">Agregar nuevo Auto</string>
+
+    <!-- pilotosCrud -->
+    <string name="plainTextNombre">Nombre</string>
+
+    <!-- Shared -->
+    <string name="buttonAtras">Atras</string>
+    <string name="buttonAgregar">Agregar</string>
+    <string name="buttonBorrar">Borrar</string>
+
+</resources>
