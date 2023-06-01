@@ -66,7 +66,8 @@
             android:id="@+id/buttonPistas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/buttonPistas" />
+            android:text="@string/buttonPistas"
+            android:onClick="goToPistas"/>
 
         <Space
             android:layout_width="match_parent"
@@ -76,7 +77,8 @@
             android:id="@+id/buttonHistorico"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/buttonHistorico" />
+            android:text="@string/buttonHistorico"
+            android:onClick="goToHistorial"/>
 
         <Space
             android:layout_width="match_parent"
@@ -86,7 +88,8 @@
             android:id="@+id/buttonAutos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/buttonAutos" />
+            android:text="@string/buttonAutos"
+            android:onClick="goToAutos" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

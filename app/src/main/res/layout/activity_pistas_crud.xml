@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PilotosActivity">
+    tools:context=".PistasCrudActivity">
 
     <LinearLayout
-        android:id="@+id/linearLayout10"
+        android:id="@+id/linearLayout19"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -19,48 +19,43 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/buttonAtrasPilo"
+            android:id="@+id/buttonAtrasCrudPistas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/buttonAtras" />
-
-        <SearchView
-            android:id="@+id/searchViewPiloto"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout8"
+        android:id="@+id/linearLayout17"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout9"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout18"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout10">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout19">
 
-        <TextView
-            android:id="@+id/textView5"
+        <EditText
+            android:id="@+id/editTextNumberVueltas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/textViewPilotos" />
+            android:ems="10"
+            android:hint="@string/editTextNumberVueltas"
+            android:inputType="number" />
 
         <ListView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout9"
-        android:layout_width="match_parent"
-        android:layout_height="63dp"
+        android:id="@+id/linearLayout18"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
@@ -70,11 +65,17 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/buttonAgregarNuevoPiloto"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:onClick="goToCrudPilotos"
-            android:text="@string/buttonAgregarPiloto" />
-    </LinearLayout>
+            android:id="@+id/buttonAgregarPista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/buttonAgregar" />
 
+        <Button
+            android:id="@+id/buttonBorrarPista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/buttonBorrar" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

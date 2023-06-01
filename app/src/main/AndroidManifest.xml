@@ -12,6 +12,18 @@
         android:theme="@style/Theme.CarritosVersionFinal"
         tools:targetApi="31">
         <activity
+            android:name=".AutosCrudActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CarreraIniciadaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PistasCrudActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistorialActivity"
+            android:exported="false" />
+        <activity
             android:name=".PilotosCrudActivity"
             android:exported="false" />
         <activity

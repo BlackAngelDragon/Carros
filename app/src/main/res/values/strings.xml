@@ -15,7 +15,8 @@
 
     <!-- CarreraActivity -->
     <string name="buttonSelccionarPista">Seleccion pista</string>
-    <string name="textAgregarPioloto">para agregar pilotos, toque aqui o pase un aauto por el lector</string>
+    <string name="buttonIniciarCarrera">Iniciar Carrera</string>
+    <string name="textAgregarPioloto">para agregar pilotos, toque aqui o pase un auto por el lector</string>
 
     <!-- PilotosActivity -->
     <string name="textViewPilotos">Pilotos</string>
@@ -31,6 +32,16 @@
 
     <!-- pilotosCrud -->
     <string name="plainTextNombre">Nombre</string>
+
+    <!-- pilotosCrud -->
+    <string name="editTextNumberVueltas">Vueltas</string>
+
+    <!-- AutosCrud -->
+    <string name="editTextColor">Color</string>
+
+    <!-- carreraIniciada -->
+    <string name="buttonTerminarCarrera">terminar Carrera</string>
+
 
     <!-- Shared -->
     <string name="buttonAtras">Atras</string>
